@@ -12,15 +12,17 @@ Ember-cli-admin is a powerful admin dashboard for ember-cli projects that is bui
 
 ##Installation
 
+If you are using Ember CLI 0.2.3 or higher, just run within your project directory:
+
+```bash
+ember install ember-cli-admin
 ```
-npm install ember-cli-admin --save-dev
+
+If your Ember CLI version is greater than 0.1.5 and less than 0.2.3, run the following within your project directory:
+
+```bash
+ember install:addon ember-cli-admin
 ```
-
-##Quick Setup Steps
-
-First,
-
-`ember install:addon ember-cli-admin`
 
 Or if you're using Ember CLI 0.1.4 or older:
 
@@ -28,11 +30,14 @@ Or if you're using Ember CLI 0.1.4 or older:
 npm install ember-cli-admin --save-dev
 ember g ember-cli-admin
 ```
-Second,
+
+##Quick Setup Steps
+
+First,
 
 `ember g admin-app "My Awesome App Name"`
 
-Third,
+Second,
 
 `ember g table-view-resource my-resources`
 

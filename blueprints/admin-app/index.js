@@ -1,4 +1,4 @@
-var processTextContent = require('ember-cli-admin/lib/proccess-text-content').processTextContent;
+var processTextContent = require("ember-cli-admin/lib/proccess-text-content").processTextContent;
 
 module.exports = {
   description: 'Generates an app scaffold',
